@@ -1,0 +1,29 @@
+User-agent: bingbot
+Disallow: /
+
+User-agent: *
+Disallow: /adm
+Disallow: /adm_w
+Disallow: /*.pdf$
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /data
+Disallow: /css
+Disallow: /lib
+Disallow: /font
+Disallow: /js
+Disallow: /inc
+Disallow: /img
+Disallow: /image
+Disallow: /images
+Disallow: /*.xml$
+Crawl-delay: 600
+
+User-agent: Yeti  
+Allow: /
+Crawl-delay: 600
+
+User-agent: NaverBot  
+Allow: /
+Crawl-delay: 600
