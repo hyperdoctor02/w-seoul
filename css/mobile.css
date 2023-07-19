@@ -572,7 +572,7 @@
 }
 
 /* 480px */
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     #wrap {
         min-width: 100%;
     }
@@ -618,11 +618,11 @@
     }
     .menuOpen .menuWrap {
         width: 100% !important;
-        height: 65% !important;
+        height: 60% !important;
         background: #1a1a1a;
         position: fixed;
         z-index: 9999; 
-        top: -1000px;
+        top: 0px;
         right: 0;
         transition: all 0.4s;
     }
@@ -635,11 +635,11 @@
     .menuOpen .menuWrap #m-gnb {
         width: 100% !important;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.2em;
         position: absolute;
-        top: 20%;
+        top: 50% !important;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50% , -50%);
     }
     .menuOpen .menuWrap #m-gnb li a,
     .menuOpen .menuWrap #m-gnb a {
