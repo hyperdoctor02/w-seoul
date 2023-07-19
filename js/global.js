@@ -317,3 +317,30 @@ $(document).ready(function() {
         $('html, body').animate({ scrollTop: top }, 400);
     });
 });
+
+//   의료진소개-Slide
+var text = ['정성웅 원장','정재협 원장', '이보현 원장'];
+		
+var bottomSwiper = new Swiper('.swiper-bottom', {
+	slidesPerView: '1',
+	pagination: {
+		el: ".swiper-pagination-custom",
+			clickable: true,
+			bulletClass:"custom_bullet",
+			bulletActiveClass: "swiper-pagination-custom-bullet-active",
+
+renderBullet: function (index, className) {
+ return '<div class="'+className+'"><span>'+ (text[index]) +'</span></div>'
+},
+	},
+
+	autoplay: {
+		delay: false,
+		disableOnInteraction:false,
+	},
+	speed: false,
+	loop: true,
+	touchRatio: 0.2,
+	observer: true,
+	observeParents: true
+});

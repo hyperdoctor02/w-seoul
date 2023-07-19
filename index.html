@@ -11,9 +11,11 @@
 <link rel="stylesheet" type="text/css" href="css/global.css"/>
 <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
 <link rel="stylesheet" type="text/css" href="css/board.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 <script src="js/jquery.min.js"></script>
 <script src="js/java.js"></script>
 <script src="js/global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <!--[if lt IE 9]>
 <script src="/js/html5.js"></script>
 <![endif]-->
@@ -300,11 +302,11 @@
 			</div>
 			<div class="listBox-6 cont">
 					<h4>수액치료</h4>
-					<p>직장인들의 피로회복을 위한 수액치료 / 수험생들의 집중력 향상을<br> 위한 수액치료</p>
+					<p>직장인들의 피로회복을 위한 수액치료 /수험생들의 집중력 향상을<br> 위한 수액치료</p>
 			</div>
 			<div class="listBox-7 cont">
 				<h4>비만클리닉</h4>
-					<p>위풍선 삽입술 (앤드볼시술) / 식이조절 및 운동처방 / 비만약물치료</p>
+					<p>위풍선 삽입술 (앤드볼시술) / 식이조절 및 운동처방 /<br class="mo"> 비만약물치료</p>
 			</div>
 			<div class="listBox-8 cont">
 				<h4>금연클리닉</h4>
@@ -321,15 +323,57 @@
 				<p>최선의 진료로 환자분들께 최고의 만족도를 드리기 위해서 노력하겠습니다.</p>
 			</h5>
 			<img class="motion one" src="images/sec3_img01-1.png" />
+			<!-- <img src="./images/sec3_img01-mo.png" alt="" class="img01-mo"> -->
 			<br />
 			<img class="motion two" src="images/sec3_img02.png" />
 			<br />-
 			<img class="motion two" src="images/sec3_img03_230331.png" />
 			<br />
 			<!-- <img class="motion two" src="../images/sec3_img03.png" /> -->
-			<div class="mt45">
-				<img class="motion sec3-table" src="images/sec3_table_230331.jpg" />
-			</div>
+			
+			<div class="upper">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./images/sec3_img01-mo-1.png" alt="정성웅원장님약력_mo" class="onlyM"/>
+							
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/sec3_img02-mo-1.png" alt="정재협원장님약력_mo" class="onlyM"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/sec3_img03_230331-mo-1.png" alt="이보현원장님약력_mo" class="onlyM"/>
+						</div>
+					</div>
+
+					<div class="swiper-pagination">
+						<div class="swiper-pagination-bullet"></div>
+						<div class="swiper-pagination-bullet"></div>
+						<div class="swiper-pagination-bullet"></div>
+					</div>
+				</div>				
+				<script>
+					//의료진소개
+					var bullet = ['정성웅 원장', '정재협 원장', '이보현 원장'];
+					var swiper = new Swiper('.mySwiper', {
+						
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+							renderBullet: function (index, className) {
+							return '<div class="' + className + '"><span>' + (bullet[index]) + '</span></div>';
+						}
+					},
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+					});
+				</script>
+				</div> 
+				<div class="mt45">
+					<img class="motion sec3-table" src="images/sec3_table_230331.jpg" />
+				</div>
 		</div>
 		</section>
 		<!-- //SEC04 -->

@@ -40,40 +40,40 @@
     .sec02 {
         height: 850px;
     }
-    .sec02 ul {
+    .sec02 #inner ul {
         left: 50%;
         transform: translateX(-50%);
     }
     /* ---------- */
     
     /* sec03 */
-    .sec03  img {
+    .sec03 #inner  img {
         left: 12%;
     }
-    .sec03 .cont p {
+    .sec03 #inner .cont p {
         font-size: 1.7em;
     }
-    .sec03  .listBox-1 {
+    .sec03 #inner  .listBox-1 {
         top: 19.5%;
         transform: translateX(-50%);
     }
-    .sec03 .listBox-2 {
+    .sec03 #inner .listBox-2 {
         transform: translateX(-46%);
     }
-    .sec03 .listBox-5 {
+    .sec03 #inner .listBox-5 {
         bottom: 37%;
         transform: translateX(-50%);
     }
-    .sec03  .listBox-6 {
+    .sec03  #inner .listBox-6 {
         bottom: 27.5%;
         transform: translateX(-50%);
     }
-    .sec03  .listBox-7 {
+    .sec03 #inner .listBox-7 {
         position: absolute;
         bottom: 20%;
         transform: translateX(-50%);
     }
-    .sec03  .listBox-8 {
+    .sec03 #inner .listBox-8 {
         position: absolute;
         bottom: 10.5%;
         left: 45%;
@@ -84,16 +84,16 @@
    /* sec04 */
    
    
-   .sec04 .tit {
+   .sec04 #inner .tit {
     font-size: 3em;
    }
-   .sec04 .tit p {
+   .sec04 #inner .tit p {
     font-size: 18px;
    }
    /* ---------- */
 
    /* sec05 */
-   .sec05 ul.appear {
+   .sec05 #inner ul.appear {
     padding-top: 130px;
    }
    .sec05 #inner h2 .tit {
@@ -113,24 +113,24 @@
    .sec06 #inner {
     width: 100% !important;
    }
-   .sec06 h2 {
+   .sec06 #inner h2 {
     top: 2%;
    }
-   .sec06 h2 .tit {
+   .sec06 #inner h2 .tit {
     top: 15%;
    }
-   .sec06 ul {
+   .sec06 #inner ul {
     width: auto !important;
     padding-top: 130px;
    }
-   .sec06 ul li {
+   .sec06 #inner ul li {
     width: 380px;
     height: 325px;
    }
-   .sec06 ul li img {
+   .sec06 #inner ul li img {
     width:100%;
    }
-   .sec06 .under_img img {
+   .sec06 #inner .under_img img {
     top: 62px;
     left: -80px;
    }
@@ -150,13 +150,13 @@
    .sec08 #inner {
     width: 100% !important;
    }
-   .sec08 h2 {
+   .sec08 #inner h2 {
     padding-top: 35px;
    }
-   .sec08 h2 .tit {
+   .sec08 #inner h2 .tit {
     top: 6%;
    }
-   .sec08 img {
+   .sec08 #inner img {
     width: 90% !important;
    }
   /* ---------- */
@@ -205,29 +205,29 @@
     /* ------- */
 
     /* sec03 */
-    .sec03 img {
+    .sec03 #inner img {
         left: 10%;
     }
    
-    .sec03 .listBox-1,
-    .sec03 .listBox-2,
-    .sec03 .listBox-3,
-    .sec03 .listBox-4,
-    .sec03 .listBox-5,
-    .sec03 .listBox-6,
-    .sec03 .listBox-7,
-    .sec03 .listBox-8 {
+    .sec03 #inner .listBox-1,
+    .sec03 #inner .listBox-2,
+    .sec03 #inner .listBox-3,
+    .sec03 #inner .listBox-4,
+    .sec03 #inner .listBox-5,
+    .sec03 #inner .listBox-6,
+    .sec03 #inner .listBox-7,
+    .sec03 #inner .listBox-8 {
         left: 30%;
         transform: translateX(0);
     }
    /* -------- */
 
    /* sec04 */
-   .sec04 .tit {
+   .sec04 #inner .tit {
     font-size: 2.6em;
     top: 12%;
    }
-   .sec04 .tit p {
+   .sec04 #inner .tit p {
     font-size: 16px;
    }
    .sec3-table {
@@ -237,14 +237,14 @@
 
 
    /* sec05 */
-   .sec05 h2 .tit {
+   .sec05 #inner h2 .tit {
     top: 20%;
    }
-   .sec05 ul li{
+   .sec05 #inner ul li{
     width: 431px;
     height: 254px;
    }
-   .sec05 ul li img {
+   .sec05 #inner ul li img {
     width: 100%;
    }
    /* --------- */
@@ -256,24 +256,24 @@
    .sec06 #inner {
     width: 100% !important;
    }
-   .sec06 h2 {
+   .sec06 #inner h2 {
     top: 2%;
    }
-   .sec06 h2 .tit {
+   .sec06 #inner h2 .tit {
     top: 20%;
    }
-   .sec06 ul {
+   .sec06 #inner ul {
     width: auto !important;
     padding-top: 130px;
    }
-   .sec06 ul li {
+   .sec06 #inner ul li {
     width: 325px !important;
     height: 277px !important;
    }
-   .sec06 ul li img {
+   .sec06 #inner ul li img {
     width:100%;
    }
-   .sec06 .under_img img {
+   .sec06 #inner .under_img img {
     top: -17px;
     left: 0%;
     width: 90%;
@@ -285,12 +285,12 @@
         width: 100%;
         height: 500px;
     }
-    .sec07 ul {
+    .sec07 #inner ul {
        display: flex;
        justify-content: space-between;
        align-items: center;
     }
-    .sec07 ul li img {
+    .sec07 #inner ul li img {
         width: 100%;
     }
     /* --------- */
@@ -302,13 +302,13 @@
     .sec08 #inner {
         width: 100% !important;
     }
-    .sec08 h2{
+    .sec08 #inner h2{
         padding-top: 20px;
     }
-    .sec08 h2 .tit {
+    .sec08 #inner h2 .tit {
         top: 7%;
     }
-    .sec08 img {
+    .sec08 #inner img {
         width: 90% !important;
        }
     /* --------- */
@@ -404,61 +404,61 @@
     /* ---------- */
 
     /* sec03 */
-    .sec03 img {
+    .sec03 #inner img {
         left: 6% !important;
         top: 16% !important;
     }
-    .sec03 .listBox-1,
-    .sec03 .listBox-2,
-    .sec03 .listBox-3,
-    .sec03 .listBox-4,
-    .sec03 .listBox-5,
-    .sec03 .listBox-6,
-    .sec03 .listBox-7,
-    .sec03 .listBox-8 {
+    .sec03 #inner .listBox-1,
+    .sec03 #inner .listBox-2,
+    .sec03 #inner .listBox-3,
+    .sec03 #inner .listBox-4,
+    .sec03 #inner .listBox-5,
+    .sec03 #inner .listBox-6,
+    .sec03 #inner .listBox-7,
+    .sec03 #inner .listBox-8 {
         left: 30% !important;
         transform: translateX(0);
     }
     
-    .sec03 h4 {
+    .sec03 #inner h4 {
         font-size: 2.5em !important;
     }
-    .sec03 .cont p {
+    .sec03 #inner .cont p {
         font-size: 1.5em !important;
     }
-    .sec03 .cont span {
+    .sec03 #inner .cont span {
         font-size: 1.2em !important;
     }
-    .sec03 .listBox-2 {
+    .sec03 #inner .listBox-2 {
         top: 28% !important;
     }
-    .sec03 .listBox-3 {
+    .sec03 #inner .listBox-3 {
         top: 38% !important;
     }
-    .sec03 .listBox-4 {
+    .sec03 #inner .listBox-4 {
         top: 47% !important;
     }
-    .sec03 .listBox-5 {
+    .sec03 #inner .listBox-5 {
         bottom: 38% !important;
     }
-    .sec03 .listBox-6 {
+    .sec03 #inner .listBox-6 {
         bottom: 28.5% !important;
     }
-    .sec03 .listBox-7 {
+    .sec03 #inner .listBox-7 {
         bottom: 21% !important;
     }
-    .sec03 .listBox-8 {
+    .sec03 #inner .listBox-8 {
         bottom: 12% !important;
     }
     /* ------ */
 
     /* sec04 */
-    .sec04 .tit{
+    .sec04 #inner .tit{
         font-size: 3em !important;
         top: 16%;
     }
-    .sec04 img.one,
-    .sec04 img.two {
+    .sec04 #inner img.one,
+    .sec04 #inner img.two {
         width: 100% !important;
     }
     .sec3-table {
@@ -467,59 +467,59 @@
     /* ------ */
 
     /* sec05 */
-    .sec05 h2 .tit {
+    .sec05 #inner h2 .tit {
         top: 20% !important;
     }
-    .sec05 ul {
+    .sec05 #inner ul {
         width: 620px !important;
         padding-top: 130px !important;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .sec05 ul li{
+    .sec05 #inner ul li{
         width: 300px;
         height: 170px;
     }
-    .sec05 ul li:nth-child(even) {
+    .sec05 #inner ul li:nth-child(even) {
         margin-left: 0 !important;
     }
-    .sec05 ul li img {
+    .sec05 #inner ul li img {
         width: 100% !important;
     }
     /* -------- */
 
     /* sec06 */
     .sec06 {
-        height: 940px !important;
+        height: 895px !important;
     }
-    .sec06 h2 {
+    .sec06 #inner h2 {
         top: 4% !important;
     }
-    .sec06 h2 .tit {
+    .sec06 #inner h2 .tit{
         top: 20%;
     }
     .sec06 #inner {
-        width: 100% !important;
+        width: 95% !important;
     }
-    .sec06 ul  {
+    .sec06 #inner ul  {
         width: 720px;
         padding-top: 130px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .sec06 ul li {
+    .sec06 #inner ul li {
         width: 230px !important;
         height: 200px !important;
         margin: 0;
         padding: 0;
     }
-    .sec06 ul li img {
+    .sec06 #inner ul li img {
         width: 100%;
     }
-    .sec06 .under_img img {
-        top: -17px;
+    .sec06 #inner .under_img img {
+        top: -25px;
         left: 0%;
         width: 100%;
     }
@@ -530,12 +530,12 @@
         width: 100%;
         height: 400px;
     }
-    .sec07 ul {
+    .sec07 #inner ul {
        display: flex;
        justify-content: space-between;
        align-items: center;
     }
-    .sec07 ul li img {
+    .sec07 #inner ul li img {
         width: 100% !important;
     }
     /* --------- */
@@ -547,13 +547,13 @@
     .sec08 #inner {
         width: 100% !important;
     }
-    .sec08 h2{
+    .sec08 #inner h2{
         padding-top: 20px !important;
     }
-    .sec08 h2 .tit {
+    .sec08 #inner h2 .tit {
         top: 7%;
     }
-    .sec08 img {
+    .sec08 #inner img {
         width: 95% !important;
        }
     /* --------- */
@@ -572,16 +572,19 @@
 }
 
 /* 480px */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     #wrap {
         min-width: 100%;
     }
+    br.mo {
+        display: block !important;
+    }	
     h2 {
-        font-size: 2em;
+        font-size: 2.3em !important;
     }
 
     h2 p {
-        font-size: 17px;
+        font-size: 15px !important;
     }
 
     #inner {
@@ -615,7 +618,7 @@
     }
     .menuOpen .menuWrap {
         width: 100% !important;
-        height: 30vh;
+        height: 50% !important;
         background: #1a1a1a;
         position: fixed;
         z-index: 9999; 
@@ -644,16 +647,22 @@
         display: inline-block !important;
          transition: all 0.3s;
     }
+    .menuOpen .menuWrap #m-gnb li a {
+        padding: 0 !important;
+    }
+    .menuOpen .menuWrap #m-gnb a {
+        padding: 15px 0 !important;
+    }
     .menuOpen .menuWrap #m-gnb li {
-        width: 100%;
-        padding: 5px 0;
+        width: 100% !important;
+        padding: 15px 0;
         border-bottom: 1px solid #fff;
     }
     /*menu열기*/
     .menuOpen .menuWrap.on {
         width: 100% !important;
         right: 0; 
-        top: 0;
+        top: 0%;
         transition: all 0.5s;
     }
 
@@ -698,17 +707,190 @@
    /* -------- */
 
    /* sec03 */
-   .sec03 img {
-    width: 30%;
+   .sec03 {
+    height: 1300px !important;
+   }
+   .sec03 #inner h4 {
+    font-size: 2em !important;
+   }
+   .sec03 #inner .cont p {
+    font-size: 1em !important;
+   }
+   .sec03 #inner .cont span {
+    font-size: 0.9em !important;
+   }
+   .sec03 #inner img {
+    width: 20%;
     left: 7%;
    }
+   .sec03 #inner .listBox-1, 
+   .sec03 #inner .listBox-2, 
+   .sec03 #inner .listBox-3, 
+   .sec03 #inner .listBox-4, 
+   .sec03 #inner .listBox-5, 
+   .sec03 #inner .listBox-6, 
+   .sec03 #inner .listBox-7, 
+   .sec03 #inner .listBox-8 {
+    left: 30% !important;
+    transform: translateX(0);
+   }
+   .sec03 .listBox-1 {
+    top: 18.5% !important;
+   }
+   .sec03 .listBox-2 {
+    top: 28% !important;
+   }
+   .sec03 .listBox-3 {
+    top: 37.5% !important;
+   }
+   .sec03 .listBox-4 {
+    top: 46.5% !important;
+   }
+   .sec03 .listBox-5 {
+    bottom: 36.5% !important;
+   }
+   .sec03 .listBox-6 {
+    bottom: 27% !important;
+   }
+   .sec03 .listBox-7 {
+    bottom: 19% !important;
+   }
+   .sec03 .listBox-8 {
+    bottom: 11% !important;
+   }
+   /* ------- */
 
+   /* se04 */
+   .sec04 #inner {
+    width: 90% !important;
+   }
+   .sec04 #inner .tit {
+    font-size: 2em !important;
+    top: 34% !important;
+   }
+   .sec04 #inner .tit p {
+    font-size: 14px !important;
+   }
 
-
-
-
-
-
-
+   .sec04 #inner img.one,
+   .sec04 #inner img.two {
+    display: none !important;
+   }
+   .sec04 #inner .upper {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative !important;
     }
+    .sec04 #inner .upper .swiper {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .swiper-slide {
+        text-align: center;
+      
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        margin-top: 600px;
+        display: block;
+        width: 100% !important;
+        float: left;
+        height: auto;
+        padding: 0 0 0 0;
+      }
+
+      .sec04 #inner .upper .swiper-pagination{
+        display: flex !important;
+        top:50% !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        position: absolute !important;
+      }
+      .sec04 #inner .upper .swiper-pagination-bullet { 	
+        width: 110px !important;
+        border-radius: 5px;
+        margin-right: 20px;
+        padding:15px 0 20px;
+        background-color: #fff;
+        opacity: 1;
+        transition: all .3s; 
+        font-size: 1.2em;
+    }
+    .sec04 #inner .upper .swiper-pagination-bullet-active {
+        width: 110px !important;
+        border-radius: 5px;
+        margin-right: 20px;
+        padding:15px 0 20px;
+        background-color: #1a1a1a;
+        color: #fff;
+        transition: all .3s;  
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .sec04 #inner .txtBox {
+        position: absolute !important;
+        right: -3% !important;
+        top: 59% !important;
+        width: 50% !important;
+        color: #fff;
+        font-weight: normal;
+        text-align: left !important;
+    }
+    .sec04 #inner .txtBox span {
+        font-size: 1.3em;
+    }
+    .sec04 #inner .txtBox b {
+        font-size: 2.5em;
+    }
+    .sec04 #inner .txtBox p {
+        padding-top: 10px;
+        font-size: 1em;
+    }
+    .mt45 img {
+        width: 100vw !important;
+    }
+    /* -------- */
+
+    /* sec05 */
+    .sec05 #inner h2 .tit {
+        top: 15% !important;
+    }
+    .sec05 #inner ul {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        padding-top: 80px;
+    }
+    .sec05 #inner ul li {
+        height: 220px !important;
+    }
+    .sec05 #inner ul li:nth-child(even) {
+        margin-left: 0 !important;
+    }
+    .sec05 #inner ul li img {
+        width: 60% !important;
+    }
+
+}
+ 
+   
+
+
+
+
+
 
