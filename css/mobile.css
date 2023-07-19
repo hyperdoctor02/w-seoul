@@ -618,7 +618,7 @@
     }
     .menuOpen .menuWrap {
         width: 100% !important;
-        height: 50% !important;
+        height: 60% !important;
         background: #1a1a1a;
         position: fixed;
         z-index: 9999; 
