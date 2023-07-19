@@ -572,7 +572,7 @@
 }
 
 /* 480px */
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     #wrap {
         min-width: 100%;
     }
@@ -618,7 +618,7 @@
     }
     .menuOpen .menuWrap {
         width: 100% !important;
-        height: 60% !important;
+        height: 50% !important;
         background: #1a1a1a;
         position: fixed;
         z-index: 9999; 
@@ -637,9 +637,13 @@
         text-align: center;
         font-size: 1.2em;
         position: absolute;
-        top: 50% !important;
-        left: 50%;
-        transform: translate(-50% , -50%);
+        left: 50% !important;
+        top: 10%;
+        transform: translate(-50%);
+        overflow: auto;
+        -webkit-transition: top .3s ease-in-out;
+        transition: top .3s ease-in-out;
+        height: 100vh !important;
     }
     .menuOpen .menuWrap #m-gnb li a,
     .menuOpen .menuWrap #m-gnb a {
