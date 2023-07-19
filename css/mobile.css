@@ -618,7 +618,7 @@
     }
     .menuOpen .menuWrap {
         width: 100% !important;
-        height: 50% !important;
+        height: 65% !important;
         background: #1a1a1a;
         position: fixed;
         z-index: 9999; 
@@ -637,9 +637,9 @@
         text-align: center;
         font-size: 1.5em;
         position: absolute;
-        top: 50%;
+        top: 6%;
         left: 50%;
-        transform: translate(-50% , -50%);
+        transform: translateX(-50%);
     }
     .menuOpen .menuWrap #m-gnb li a,
     .menuOpen .menuWrap #m-gnb a {
