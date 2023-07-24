@@ -1112,18 +1112,19 @@
 /* 479px */
 @media screen and (max-width: 479px) {
     #wrap {
-        min-width: 100%;
+        max-width: 100%;
     }
     
     br.mo {
         display: block !important;
     }	
     h2 {
-        font-size: 2.3em !important;
+        font-size: 2.3rem !important;
     }
 
     h2 p {
         font-size: 15px !important;
+        font-family: MICE고딕;
     }
 
     #inner {
@@ -1224,6 +1225,7 @@
     /* sec02 */
     .sec02 {
         height: 600px !important;
+        
     }
     .sec02 #inner ul {
         width: 100% !important;
@@ -1235,19 +1237,65 @@
         width: 100% !important;
     }
     .sec02 #inner ul li .txtBox h3 {
-        font-size: 1.3em !important;
+        font-size: 1.3rem !important;
     }
     .sec02 #inner ul li .txtBox b {
-        font-size: 1.3em !important;
+        font-size: 1.3rem !important;
+        font-family: 'Anton', sans-serif;
     }
     .sec02 #inner ul li .txtBox p {
-        font-size: 0.9em !important;
+        font-size: 0.9rem !important;
     }
     .sec02 #inner ul li {
         height: 281px !important;
     }
     .sec02 #inner ul li .txtBox {
         bottom: -24% !important;
+    }
+    /* ------ */
+
+    /* sec03 */
+    .sec03 {
+        height: 1770px !important;
+    }
+    .sec03 #inner h4 {
+        font-size: 2em !important;
+    }
+    .sec03 #inner .cont p {
+        font-size: 1em !important;
+    }
+    .sec03 #inner .cont span {
+        font-size: 1em !important;
+    }
+    .sec03 #inner .n-box {
+        left: 0;
+    }
+    .sec03 #inner .n-box ul li img {
+        width: 70%;
+    }
+    .sec03 #inner .listBox-1 {
+        top: 18% !important;
+    }
+    .sec03 #inner .listBox-2 {
+        top: 28% !important;
+    }
+    .sec03 #inner .listBox-3 {
+        top: 38% !important;
+    }
+    .sec03 #inner .listBox-4 {
+        top: 47.5% !important;
+    }
+    .sec03 #inner .listBox-5{
+        top: 58% !important;
+    }
+    .sec03 #inner .listBox-6 {
+        bottom: 26% !important;
+    }
+    .sec03 #inner .listBox-7 {
+        bottom: 16% !important;
+    }
+    .sec03 #inner .listBox-8 {
+        bottom: 8% !important;
     }
 }
    
