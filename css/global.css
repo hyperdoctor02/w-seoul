@@ -20,20 +20,20 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .nshtml{overflow: hidden !important;}
 #inner {width: 1320px;margin: auto;-webkit-box-sizing: border-box; box-sizing: border-box;}
 
-#wrap {min-width: 1320px;overflow: hidden;padding-top: 55px;}
+#wrap {width: 100%;overflow: hidden;padding-top: 55px;}
 #wrap section {position: relative;}
 #wrap section .position {position: absolute;top: -55px;left: 0;}
 
 
 
 
-#header {height: 55px;background: #1a1a1a;position: fixed;top: 0;left: 0;width: 100%;z-index: 1000; box-shadow:0 5px 5px rgba(0,0,0,0.1);}
-#header .inner {width: 1320px;margin: 0 auto;position: relative;}
-#header .inner h1 {position: absolute;top: 13px;left: 0;}
-#header .inner .gnb {position: absolute;top: 0;right: 0;}
+#header {background: #1a1a1a;position: fixed;top: 0;left: 0;width: 100%;z-index: 1000; box-shadow:0 5px 5px rgba(0,0,0,0.1);}
+#header .inner {width: 100%;height: 55px; margin: 0 auto;position: relative;}
+#header .inner h1 {position: absolute;top: 10%;left: 10%;}
+#header .inner .gnb {width: 75%; height: auto; position: absolute; top: 50%; left: 50% ;-webkit-transform: translate(0, -50%); transform: translate(0, -50%); text-align: center;display: table;}
 #header .inner .gnb:after {display: block;clear: both;content: "";}
 #header .inner .gnb ul {font-size: 0;float: left;}
-#header .inner .gnb ul li {display: inline-block;margin-left: 43px;}
+#header .inner .gnb ul li {display:table-cell;width: auto;display: inline-block;margin-left: 43px;}
 #header .inner .gnb > a {float: left;margin-left: 43px;}
 #header .inner .gnb > a,
 #header .inner .gnb ul li a {
@@ -51,8 +51,8 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 
 .sec02 {background: #f3f3f3;height: 975px;position: relative;text-align: center;}
 .sec02 #inner h2 {position: absolute;top: 16%;left: 50%;transform: translateX(-50%);}
-.sec02 #inner ul {position: absolute;bottom: -8%;left: 50%;transform: translateX(-50%);width: 100%; z-index: 59;}
-.sec02 #inner ul li {display: inline-block;width: 300px;height: 605px; position: relative; top: -50px; margin: 0 11px;}
+.sec02 #inner ul {position: absolute;bottom: -8%;left: 50%;transform: translateX(-50%);width: 50%; z-index: 59;display: flex; flex-direction: row;justify-content: space-between;}
+.sec02 #inner ul li {display: inline-block;width: 100%;height: 605px; position: relative; top: -50px; margin: 0 11px;}
 .sec02 #inner ul li .txtBox {position: absolute; bottom: 0%;left:50%; transform: translate(-50%,-50%);color: #333;text-align: left;width: 90%;color: #fff;}
 .sec02 #inner ul li .txtBox h3 {font-size: 2em;padding-bottom: 10px;font-weight: normal;font-family:MICE고딕;}
 .sec02 #inner ul li .txtBox b {font-size: 3em;font-weight: 300;font-family: 'Anton', sans-serif;line-height: 1.3; text-transform: uppercase;letter-spacing: 1.2px;}
@@ -60,29 +60,35 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 
 .sec03 {height: 2287px;background: url(../images/sec2.jpg) no-repeat fixed 50% 50% / cover;text-align: center;position: relative;}
 .sec03 #inner h2 {color: #fff; position: absolute; top: 9%; left: 50%; transform: translateX(-50%); }
-.sec03 #inner img {display: inline-block;position: absolute;left: 25%; top: 17%;}
-.sec03 #inner h4 {font-size: 3em;border-bottom: 1px dashed #fff;width: 100%;padding-bottom: 10px;font-weight: 500;}
-.sec03 #inner .cont {font-family:MICE고딕; color: #fff;text-align: left;line-height: 1.2;}
+.sec03 #inner h4 {font-size: 3em;padding-bottom: 10px;font-weight: 500;border-bottom: 1px dashed #fff;width: 80%;}
+.sec03 #inner .cont {font-family:MICE고딕; color: #fff;text-align: left;line-height: 1.2;left: 30%;}
+.sec03 #inner .n-box {position: absolute;left: 20%;top: 17%;}
+.sec03 #inner .n-box ul {display: flex;flex-direction: column;}
+.sec03 #inner .n-box ul li {padding-bottom: 80px;}
 .sec03 #inner .cont p {font-size: 2em;padding-top: 10px;padding-bottom: 10px;line-height: 1.4;}
+.sec03 #inner .cont img {width: auto;}
 .sec03 #inner .cont span {font-size: 1.5em;}
 /* listBox-1 */
-.sec03 #inner .listBox-1 {position: absolute;top: 19%;left: 50%;transform: translateX(-50%);}
+.sec03 #inner .listBox-1 {position: absolute;top: 18%;
+width: 50%;}
 /* listBox-2 */
-.sec03 #inner .listBox-2 {position: absolute;top: 28.5%; left: 50%; transform: translateX(-50%);}
+.sec03 #inner .listBox-2 {position: absolute; top: 27.5%;
+   width: 50%;}
 .sec03 #inner .listBox-2 span {line-height: 1.3;}
 /* listBox-3 */
-.sec03 #inner .listBox-3 {position: absolute;top: 38.5%;left: 50%; transform: translateX(-50%);}
+.sec03 #inner .listBox-3 {position: absolute; top: 37%;width: 50%;}
 /* listBox-4 */
-.sec03 #inner .listBox-4 {position: absolute;top: 47.5%;left: 51%; transform: translateX(-49%);}
+.sec03 #inner .listBox-4 {position: absolute; top: 46.5%; width: 50%;}
 .sec03 #inner .listBox-4 p {line-height: 1.4;}
 /* listBox-5 */
-.sec03 #inner .listBox-5 {position: absolute;bottom: 36.5%;left: 51%; transform: translateX(-49%);}
+.sec03 #inner .listBox-5  {position: absolute;top: 56%;width: 50%;}
 /* listBox-6 */
-.sec03 #inner .listBox-6 {position: absolute;bottom: 27.5%;left: 52%; transform: translateX(-48%);}
+.sec03 #inner .listBox-6  {position: absolute; bottom: 28%;width: 50%;}
 /* listBox-7 */
-.sec03 #inner .listBox-7 {position: absolute;bottom: 19.5%;left: 52%; transform: translateX(-48%);}
+.sec03 #inner .listBox-7  {position: absolute;bottom: 20%;
+    width: 50%;}
 /* listBox-8 */
-.sec03 #inner .listBox-8 {position: absolute;bottom: 10.5%;left: 48%; transform: translateX(-52%);}
+.sec03 #inner .listBox-8  {position: absolute;bottom: 10%; width: 50%;}
 
 .sec3-table {position:relative;left:50%;margin-left:-100%;}
 
@@ -95,8 +101,7 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .sec04 #inner img.one{margin-top: 550px;}
 .sec04 #inner img.two{margin-top: 70px;}
 .sec04 #inner .upper {display: none;}
-
-
+.swiper-slide img {width: 830px; height: auto;display: block;object-fit: cover;display: none;}
 
 .sec05 {background: #f3f3f3;padding-top: 130px;padding-bottom: 130px;position: relative;text-align: center;}
 .sec05 #inner h2 {position: absolute; top: 3%; left: 50%; transform: translateX(-50%);}
@@ -106,7 +111,8 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .sec05 #inner ul li:nth-child(even) {margin-left: 13px;}
 
 
-.sec06 {background: #579cb7;height: 1590px;position: relative;text-align: center;padding-top: 130px;}
+.sec06 {background: #579cb7;height: 100%;position: relative;text-align: center;padding-top: 130px;padding-bottom: 130px;}
+.sec06 #inner {padding-bottom: 150px;}
 .sec06 #inner h2 {position: absolute;top: 0%;left: 50%;transform: translateX(-50%); color: #fff;}
 .sec06 #inner h2 .tit {position: absolute;top: 28%; left: 50%; transform: translateX(-50%);width: 100%;font-size: 20px;}
 .sec06 #inner h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;}
@@ -114,7 +120,7 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .sec06 #inner ul li {display: inline-block;width: 429px;height: 365px;position: relative;top: -50px;z-index: 59;margin-bottom: 5px;margin-left: 6px;}
 .sec06 #inner ul li:nth-child(3n+1) {margin-left: 0;}
 .sec06 #inner .under_img {position: relative;}
-.sec06 #inner .under_img img {position: absolute;z-index: 59;top: -47px;left: 0;}
+.sec06 #inner .under_img img {position: absolute;z-index: 59;top: -66px;left: 0;}
 
 
 .sec07 {background: #fff;height: 590px;text-align: center;}
@@ -132,9 +138,17 @@ width: 100%;}
 
 .sec09 {background: #161616 url(../images/sec9_bg.jpg) repeat-x 50% 0 fixed;height: 524px;text-align: center;padding-top: 54px;}
 
+
+/* floating-menu */
+.float-menu {z-index: 1; grid-row-gap: 12px;flex-direction: column;display: flex;position: fixed;bottom: 50px;right: 50px;}
+.float-menu #telIcon {display: none;}
+.float-menu #blogIcon,
+.float-menu #locIcon,
+.float-menu #goTop
+ {background: #11111186;border-radius: 50%;}
 /* goTOP */
- .goTop {position: fixed; right: 5%; bottom: 5%; z-index: 1;}
- .goTop img {width:100%;z-index: 2;opacity: 1;}
+ /* .goTop {position: fixed; right: 5%; bottom: 5%; z-index: 1;}
+ .goTop img {width:100%;z-index: 2;opacity: 1;} */
  
 /* footer */
 #footer {height: 66px;text-align: center;background: #111;font-family:MICE고딕;font-size: 1.5em;padding-top: 50px;}

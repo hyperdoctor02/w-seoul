@@ -289,12 +289,24 @@ $(function(){
 
 // 상단이동 부드럽게
 $(function () {
-    $(".goTop").on("click", function () {
+    $("#goTop").on("click", function () {
         let top = $("body").offset().top;
         $("html, body").animate({ scrollTop: top }, 800);
     });
   });
 
+  $(function () {
+	$("#locIcon").on("click", function (event) {
+	  event.preventDefault(); // 기본 동작(링크 이동)을 막습니다.
+	  let target = $("#se08"); // 스크롤 대상이 되는 "section" 요소를 선택합니다.
+	  
+	  if (target.length) { // 스크롤 대상 요소가 존재하는지 확인합니다.
+		let top = target.offset().top; // 대상 섹션의 상단 위치를 가져옵니다.
+		$("html, body").animate({ scrollTop: top }, 800); // 부드러운 스크롤 애니메이션을 적용합니다.
+	  }
+	});
+  });
+ 
 
   /*menuOpen*/
   $(function(){
