@@ -1111,9 +1111,7 @@
 
 /* 479px */
 @media screen and (max-width: 479px) {
-    #wrap {
-        max-width: 100%;
-    }
+    
     br.mo {
         display: block !important;
     }	
