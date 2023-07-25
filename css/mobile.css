@@ -1127,9 +1127,6 @@
         font-size: 15px !important;
         font-family: 'MICEGothic Bold';
     }
-    h4 {
-        font-family: 'MICEGothic Bold';
-    }
 
     #inner {
         width: 85% !important;
@@ -1237,27 +1234,21 @@
     .sec02 #inner ul li{
         margin: 0 auto;
     }
-    .sec02 #inner ul li img {
-        width: 100% !important;
+    .sec02 #inner ul li .appear-pc {
+        width: 0% !important;
     }
-    .sec02 #inner ul li .txtBox h3 {
-        font-size: 1.2rem !important;
-        padding-bottom: 5px;
+    .sec02 #inner ul li .txtBox {
+        display: none !important;
     }
-    .sec02 #inner ul li .txtBox b {
-        font-size: 1.3rem !important;
-        font-family: 'Anton';
-    }
-    .sec02 #inner ul li .txtBox p {
-        font-size: 0.9rem !important;
-        font-family: 'MICEGothic Bold';
-        padding-top: 5px;
-    }
+   
     .sec02 #inner ul li {
         height: 281px !important;
     }
     .sec02 #inner ul li .txtBox {
         bottom: -24% !important;
+    }
+    .sec02 #inner .appear-mo {
+        display: block !important;
     }
     /* ------ */
 
