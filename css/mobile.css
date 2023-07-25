@@ -1228,6 +1228,7 @@
     /* sec03 */
     .sec03 {
         height: 1770px !important;
+        background: url(../images/sec2-1-mo.png) no-repeat cover;
     }
     .sec03 #inner h4 {
         font-size: 2em !important;

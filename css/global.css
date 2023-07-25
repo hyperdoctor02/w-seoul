@@ -61,7 +61,7 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .sec02 #inner ul li .txtBox p {font-size: 1.5em; line-height: 1.4;padding-top: 10px;font-family: 'Noto Sans KR', sans-serif;}
 .sec02 #inner .appear-mo {display: none;}
 
-.sec03 {height: 2287px;;background: url(../images/sec2.jpg) no-repeat fixed 50% 50% / cover;text-align: center;position: relative;padding-top: 130px;padding-bottom: 130px;}
+.sec03 {height: 2287px;background: url(../images/sec2.jpg) no-repeat fixed 50% 50% / cover;text-align: center;position: relative;}
 .sec03 #inner h2 {color: #fff; position: absolute; top: 9%; left: 50%; transform: translateX(-50%); }
 .sec03 #inner h4 {font-size: 3rem;padding-bottom: 10px;font-weight: 500;}
 .sec03 #inner .cont {width: 800px;height: 130px;;font-family:MICE고딕; color: #fff;line-height: 1.2;left: 50%; transform: translateX(-50%);}
