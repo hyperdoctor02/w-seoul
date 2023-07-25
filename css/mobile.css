@@ -1086,7 +1086,7 @@
         display: block !important;
     }	
     h2 {
-        font-size: 2.3rem !important;
+        font-size: 2rem !important;
     }
 
     h2 p {
@@ -1283,7 +1283,7 @@
         top: 31% !important;
     }
     .sec04 #inner .tit p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .sec04 #inner img.one,
     .sec04 #inner img.two {
@@ -1331,25 +1331,25 @@
     
           .sec04 #inner .upper .swiper-pagination{
             display: block !important;
-            top: 45%;
+            top: 50%;
             left: 50%;
            transform: translateX(-50%);
           }
           .sec04 #inner .upper .swiper-pagination-bullet { 	
-            width: 105px !important;
+            width: 90px !important;
             border-radius: 5px;
-            margin-right: 20px;
-            padding:15px 0 20px;
+            margin-right: 13px;
+            padding: 10px 0 20px;
             background-color: #fff;
             opacity: 1;
             transition: all .3s; 
             font-size: 1.2em;
         }
         .sec04 #inner .upper .swiper-pagination-bullet-active {
-            width: 105px !important;
+            width: 90px !important;
             border-radius: 5px;
-            margin-right: 20px;
-            padding:15px 0 20px;
+            margin-right: 13px;
+            padding: 10px 0 20px;
             background-color: #1a1a1a;
             color: #fff;
             transition: all .3s;  
