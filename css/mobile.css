@@ -1216,10 +1216,13 @@
 
     /* sec01 */
     .sec01 {
-        height: 600px;
+        background: #333 url(../images/vis1-mo.jpg) no-repeat center;
+        background-size:cover;
+        height: 600px !important;
         z-index: 2;
     }
     .sec01 a {
+        margin: 20px !important;
         margin-top: 250px !important;
     }
     .sec01 a img {
@@ -1233,7 +1236,8 @@
         
     }
     .sec02 #inner ul {
-        width: 100% !important;
+        width: 85% !important;
+        left: 45% !important;
     }
     .sec02 #inner ul li{
         margin: 0 auto;
