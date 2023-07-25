@@ -1254,6 +1254,7 @@
         bottom: -24% !important;
     }
     .sec02 #inner .appear-mo {
+        width: 100%;
         display: block !important;
     }
     /* ------ */
@@ -1279,7 +1280,7 @@
         left: 0;
     }
     .sec03 #inner .n-box ul li img {
-        width: 70%;
+        width: 60%;
     }
     .sec03 #inner .listBox-1 {
         top: 18% !important;
