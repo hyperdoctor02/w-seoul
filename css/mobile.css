@@ -1236,8 +1236,7 @@
         
     }
     .sec02 #inner ul {
-        width: 85% !important;
-        left: 45% !important;
+        width: 100% !important;
     }
     .sec02 #inner ul li{
         margin: 0 auto;
@@ -1257,6 +1256,7 @@
     }
     .sec02 #inner .appear-mo {
         display: block !important;
+        width: 90%;
     }
     /* ------ */
 
