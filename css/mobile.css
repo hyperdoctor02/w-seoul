@@ -1275,6 +1275,91 @@
     .sec03 #inner .listBox-8 {
         bottom: 6% !important;
     }
+    /* --------- */
+
+    /* sec04 */
+    .sec04 #inner .tit{
+        font-size: 2em !important;
+        top: 31% !important;
+    }
+    .sec04 #inner .tit p {
+        font-size: 14px;
+    }
+    .sec04 #inner img.one,
+    .sec04 #inner img.two {
+        display: none !important;
+    }
+        .sec04 #inner .upper {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 auto;
+        position: relative !important;
+        }
+        .sec04 #inner .upper .swiper {
+            width: 100% !important;
+            height: auto !important;
+        }
+        .swiper-slide {
+            padding-top: 60px !important;
+            text-align: center;
+        
+          
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+          
+          .swiper-slide img {
+            margin-top: 550px;
+            display: block !important;
+            width: 100% !important;
+            float: left;
+            height: auto;
+            padding: 0 0 0 0;
+          }
+          
+    
+          .sec04 #inner .upper .swiper-pagination{
+            display: block !important;
+            top: 45%;
+            left: 50%;
+           transform: translateX(-50%);
+          }
+          .sec04 #inner .upper .swiper-pagination-bullet { 	
+            width: 105px !important;
+            border-radius: 5px;
+            margin-right: 20px;
+            padding:15px 0 20px;
+            background-color: #fff;
+            opacity: 1;
+            transition: all .3s; 
+            font-size: 1.2em;
+        }
+        .sec04 #inner .upper .swiper-pagination-bullet-active {
+            width: 105px !important;
+            border-radius: 5px;
+            margin-right: 20px;
+            padding:15px 0 20px;
+            background-color: #1a1a1a;
+            color: #fff;
+            transition: all .3s;  
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .mt45 img {
+            width: 100vw !important;
+        }
 }
    
 
