@@ -24,7 +24,7 @@
     }
     #header .inner .gnb {
         width: 70% !important;
-        left: 32% !important;
+        left: 30% !important;
     }
     /* sec01 */
     .sec01 {
@@ -49,15 +49,9 @@
     .sec03 #inner  img {
         left: 12% !important;
     }
-    .sec03 #inner .cont {
-        width: 70% !important;
-    }
+
     .sec03 #inner .cont p {
         font-size: 1.7em !important;
-    }
-    .sec03 #inner .n-box {
-        left: 15% !important;
-        top: 19% !important;
     }
     .sec03 #inner  .listBox-1 {
         top: 19.5% !important;
@@ -238,23 +232,6 @@
     }
     /* ------- */
 
-    /* sec03 */
-    .sec03 #inner .n-box {
-        left: 10%;
-    }
-    .sec03 #inner .listBox-1,
-    .sec03 #inner .listBox-2,
-    .sec03 #inner .listBox-3,
-    .sec03 #inner .listBox-4,
-    .sec03 #inner .listBox-5,
-    .sec03 #inner .listBox-6,
-    .sec03 #inner .listBox-7,
-    .sec03 #inner .listBox-8 {
-        left: 30% !important;
-        transform: translateX(0);
-        width: 65% !important;
-    }
-   /* -------- */
 
    /* sec04 */
    .sec04 #inner .tit {
@@ -461,9 +438,7 @@
     /* ---------- */
 
     /* sec03 */
-    .sec03 #inner .n-box {
-        left: 8%;
-    }
+   
     .sec03 #inner .listBox-1,
     .sec03 #inner .listBox-2,
     .sec03 #inner .listBox-3,
@@ -472,9 +447,10 @@
     .sec03 #inner .listBox-6,
     .sec03 #inner .listBox-7,
     .sec03 #inner .listBox-8 {
-        left: 30% !important;
-        transform: translateX(0);
-        width: 66% !important;
+        width: 90% !important;
+    }
+    .sec03 #inner .c-box {
+        padding-left: 25px;
     }
     
     .sec03 #inner h4 {
@@ -781,7 +757,7 @@
         margin-top:470px !important;
     }
     .sec01 a img {
-        width: 100% !important;
+        width: 90% !important;
     }
    /* -------- */
 
@@ -832,22 +808,19 @@
    }
    .sec03 #inner .cont p {
     font-size: 1em !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
    }
-   .sec03 #inner .n-box ul li {
-    padding-bottom: 40px !important;
-    width: 60% !important;
-   }
+   .sec03 #inner .cont span {
+    font-size: 0.9em !important;
+}
    .sec03 #inner .cont span {
     font-size: 0.9em !important;
    }
    .sec03 #inner img {
     max-width: 100%;
-    height: auto;
-    left: 7%;
    }
-   .sec03 #inner .n-box {
-    left: 3% !important;
-   }
+   
    .sec03 #inner .listBox-1, 
    .sec03 #inner .listBox-2, 
    .sec03 #inner .listBox-3, 
@@ -856,16 +829,9 @@
    .sec03 #inner .listBox-6, 
    .sec03 #inner .listBox-7, 
    .sec03 #inner .listBox-8 {
-    left: 25% !important;
-    transform: translateX(0);
     width: 70% !important;
    }
-   .sec03 #inner .cont p {
-    font-size: 1em !important;
-    }
-    .sec03 #inner .cont span {
-        font-size: 0.9em !important;
-    }
+  
     .sec03 #inner .listBox-2 {
         top: 27% !important;
     }
@@ -879,13 +845,13 @@
         top: 56.5% !important;
     }
     .sec03 #inner .listBox-6 {
-        bottom: 28% !important;
+        bottom: 25% !important;
     }
     .sec03 #inner .listBox-7 {
-        bottom: 18% !important;
+        bottom: 15% !important;
     }
     .sec03 #inner .listBox-8 {
-        bottom: 10.5% !important;
+        bottom: 5% !important;
     }
    /* ------- */
 
@@ -1222,10 +1188,10 @@
         z-index: 2;
     }
     .sec01 a {
-        margin-top: 250px !important;
+        margin-top: 316px !important;
     }
     .sec01 a img {
-        width: 100% !important;
+        width: 80% !important;
     }
     /* ------- */
 
@@ -1276,11 +1242,8 @@
     .sec03 #inner .cont span {
         font-size: 1em !important;
     }
-    .sec03 #inner .n-box {
-        left: 0;
-    }
-    .sec03 #inner .n-box ul li img {
-        width: 60%;
+    .sec03 #inner .n-box img{
+        width: 100% !important; 
     }
     .sec03 #inner .listBox-1 {
         top: 18% !important;
@@ -1304,7 +1267,7 @@
         bottom: 16% !important;
     }
     .sec03 #inner .listBox-8 {
-        bottom: 8% !important;
+        bottom: 6% !important;
     }
 }
    
