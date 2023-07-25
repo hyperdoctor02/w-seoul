@@ -1222,7 +1222,6 @@
         z-index: 2;
     }
     .sec01 a {
-        margin: 20px !important;
         margin-top: 250px !important;
     }
     .sec01 a img {
@@ -1256,7 +1255,6 @@
     }
     .sec02 #inner .appear-mo {
         display: block !important;
-        width: 90%;
     }
     /* ------ */
 
