@@ -1076,7 +1076,7 @@
        }
 }
 
-/* 479px */
+/* 480px-mo */
 @media screen and (max-width: 480px) {
     #wrap {
         max-width: 100%;
@@ -1232,18 +1232,22 @@
     .sec03 #inner h4 {
         font-size: 2em !important;
     }
+   
     .sec03 #inner .cont p {
         font-size: 1em !important;
         font-family: 'MICEGothic Bold';
     }
     .sec03 #inner .cont {
-        width: 70%;
+        width: 80%;
     }
     .sec03 #inner .cont span {
         font-size: 1em !important;
     }
     .sec03 #inner .n-box img{
         width: 100% !important; 
+    }
+    .sec03 #inner .n-box {
+        padding-top: 12px !important;
     }
     .sec03 #inner .listBox-1 {
         top: 18% !important;
