@@ -1228,7 +1228,8 @@
     /* sec03 */
     .sec03 {
         height: 1770px !important;
-        background: url(../images/sec2-1-mo.png) no-repeat cover;
+        background: url(../images/sec2-1-mo.png) no-repeat center !important;
+        background-size: cover !important;
     }
     .sec03 #inner h4 {
         font-size: 2em !important;
@@ -1239,7 +1240,7 @@
         font-family: 'MICEGothic Bold';
     }
     .sec03 #inner .cont {
-        width: 80%;
+        width: 85% !important;
     }
     .sec03 #inner .cont span {
         font-size: 1em !important;
