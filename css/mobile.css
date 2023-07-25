@@ -1111,9 +1111,9 @@
 }
 
 /* 479px */
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
     #wrap {
-        min-width: 100%;
+        max-width: 100%;
     }
     
     br.mo {
