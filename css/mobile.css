@@ -1360,6 +1360,43 @@
         .mt45 img {
             width: 100vw !important;
         }
+        /* --------- */
+
+        /* sec05 */
+        .sec05 #inner h2 .tit {
+            top: 10% !important;
+        }
+        .sec05 #inner ul {
+            width: auto;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: space-between !important;
+            padding-top: 80px;
+        }
+        .sec05 #inner ul li {
+            height: auto !important;
+            width: auto !important;
+        }
+        .sec05 #inner ul li:nth-child(even) {
+            margin-left: 0 !important;
+        }
+        .sec05 #inner ul li img {
+            width: 100% !important;
+        }
+        /* ----------- */
+
+        /* sec06 */
+        .sec06 #inner ul {
+            display: none !important;
+        }
+        .sec06 #inner .gallery-box {
+            display: block !important;
+        }
+        
+        .sec06 #inner .under_img {
+            display: none !important;
+        }
+
 }
    
 

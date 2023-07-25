@@ -95,7 +95,7 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 
 
 .sec04 {background: url(../images/sec3-add.jpg) no-repeat 50% 0 ;text-align: center;}
-.sec04 #inner  .tit {width: 100%;font-size: 4em;color: #fff;position: absolute;left: 50%;top: 11%;transform: translateX(-50%);font-family:MICE고딕;}
+.sec04 #inner .tit {width: 100%;font-size: 4em;color: #fff;position: absolute;left: 50%;top: 11%;transform: translateX(-50%);font-family:MICE고딕;}
 .sec04 #inner .tit span {color:#ffcb16}
 .sec04 #inner .tit p {font-size: 20px;padding-top: 10px; font-weight: normal;}
 .sec04 #inner img {display: inline-block;position: relative;top: -50px;}
@@ -122,6 +122,8 @@ h2 p {font-size: 22px;font-family:MICE고딕; font-weight: 500;line-height: 1.2;
 .sec06 #inner ul li:nth-child(3n+1) {margin-left: 0;}
 .sec06 #inner .under_img {position: relative;}
 .sec06 #inner .under_img img {position: absolute;z-index: 59;top: -66px;left: 0;}
+.sec06 #inner .gallery-box {display: none;}
+
 
 
 .sec07 {background: #fff;height: 590px;text-align: center;}
@@ -147,9 +149,7 @@ width: 100%;}
 .float-menu #locIcon,
 .float-menu #goTop
  {background: #11111186;border-radius: 50%;}
-/* goTOP */
- /* .goTop {position: fixed; right: 5%; bottom: 5%; z-index: 1;}
- .goTop img {width:100%;z-index: 2;opacity: 1;} */
+
  
 /* footer */
 #footer {height: 66px;text-align: center;background: #111;font-family:MICE고딕;font-size: 1.5em;padding-top: 50px;}
