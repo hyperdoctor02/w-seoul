@@ -1215,8 +1215,12 @@
     }
 
     /* sec01 */
+    .sec01 {
+        height: 600px;
+        z-index: 2;
+    }
     .sec01 a {
-        margin-top: 550px !important;
+        margin-top: 250px !important;
     }
     .sec01 a img {
         width: 100% !important;
