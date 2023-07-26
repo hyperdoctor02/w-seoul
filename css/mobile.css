@@ -1473,7 +1473,7 @@
 
           /* float-menu */
           .float-menu {
-            background: #1a1a1a ;
+            background: #1a1a1a ;;
             flex-direction: row;
             justify-content: space-between;
             top: auto;
