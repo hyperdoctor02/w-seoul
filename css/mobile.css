@@ -1500,9 +1500,9 @@
           }
 }
 /* 390px */
-@media screen and (max-width: 390px) {
+@media screen and (min-width:390px) and (max-width: 479px) {
     #wrap {
-        max-width: 100% !important;
+        min-width: 100% !important;
     }
     .sec06 #inner .under_img img {
         top: 42px !important;
