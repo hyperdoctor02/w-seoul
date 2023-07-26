@@ -1518,7 +1518,14 @@
     #wrap {
         min-width: 100% !important;
     }
+    h2 p {
+        font-size: 13px !important;
+    }
+    .sec02 #inner .appear-mo {
+        display: none;
+    }
     .sec02 #inner ul li .txtBox {
+        display: block !important;
         bottom: -4% !important;
     }
     .sec02 #inner ul li .txtBox h3 {
