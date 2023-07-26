@@ -1485,6 +1485,9 @@
             .float-menu #telIcon {
                 display: block !important;
             }
+            .float-menu #blogIcon, .float-menu #locIcon, .float-menu #goTop {
+                background: none;
+            }
 
           /* footer */
           #footer {
