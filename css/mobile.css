@@ -1018,7 +1018,11 @@
         width: 100% !important;
     }
     .sec06 #inner .under_img {
-        display: none !important;
+        display: block !important;
+       }
+       .sec06 #inner .under_img img {
+        width: 100% !important;
+        top: 25px !important;
        }
        /* ---------------- */
 
@@ -1404,7 +1408,7 @@
             
         
             .sec06 #inner .under_img {
-                display: none !important;
+                display: block !important;
             }
             .sec06 #inner .under_img img {
                 width: 100% !important;
