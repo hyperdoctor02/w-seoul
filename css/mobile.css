@@ -1435,6 +1435,18 @@
             .gallery-box .gallery-thumb-box .swiper-slide .info-img{position:relative;padding:0 0 62.5%;height:0;box-sizing:border-box;}
             .gallery-box .gallery-thumb-box .swiper-slide .info-img img{position:absolute;left: 0;margin-top: 0;}
           /* ---------------- */
+
+          /* sec07 */
+          .sec07 #inner {
+            width: 100% !important;
+          }
+          .sec07 #inner ul {
+            display: flex;
+
+          }
+          .sec07 #inner ul li img {
+            width: 100% !important;
+          }
 }
    
 
