@@ -43,9 +43,6 @@
         transform: translateX(-50%);
         width: 80%;
     }
-    .sec02 #inner ul li .txtBox {
-        width: 80% !important;
-    }
     /* ---------- */
     
     /* sec03 */
@@ -231,7 +228,7 @@
         width: 100% !important;
     }
     .sec02 #inner ul li .txtBox {
-        width: 75% !important;
+        width: 70% !important;
     }
     /* ------- */
 
@@ -427,7 +424,7 @@
     }
     .sec02 #inner ul li .txtBox {
         width:70% !important;
-        bottom: -5% !important;
+        bottom: -1% !important;
     }
     .sec02 #inner ul li .txtBox h3 {
         font-size: 1.5em !important;
@@ -1214,23 +1211,12 @@
         margin: 0 auto;
     }
     .sec02 #inner ul li .appear-pc {
-        width: 100% !important;
+        width: 0% !important;
     }
     .sec02 #inner ul li .txtBox {
-        display: block !important;
+        display: none !important;
     }
-    .sec02 #inner ul li .txtBox h3 {
-        font-size: 1.3em !important;
-        font-family: MICE고딕;
-    }
-    .sec02 #inner ul li .txtBox b {
-        font-size: 1.2em !important;
-        font-family: 'Anton', sans-serif;
-    }
-    .sec02 #inner ul li .txtBox p {
-        font-size: 0.9em !important;
-        font-family: 'Noto Sans KR', sans-serif;
-    }
+   
     .sec02 #inner ul li {
         height: 281px !important;
     }
@@ -1238,8 +1224,8 @@
         bottom: -24% !important;
     }
     .sec02 #inner .appear-mo {
-        width: 0%;
-        display: none !important;
+        width: 100%;
+        display: block !important;
     }
     /* ------ */
 
@@ -1288,10 +1274,10 @@
         bottom: 24% !important;
     }
     .sec03 #inner .listBox-7 {
-        bottom: 14% !important;
+        bottom: 13% !important;
     }
     .sec03 #inner .listBox-8 {
-        bottom: 4% !important;
+        bottom: 3% !important;
     }
     /* --------- */
 
@@ -1517,30 +1503,6 @@
 @media screen and (min-width:390px) and (max-width: 479px) {
     #wrap {
         min-width: 100% !important;
-    }
-    h2 p {
-        font-size: 13px !important;
-    }
-    .sec02 #inner .appear-mo {
-        display: none;
-    }
-    .sec02 #inner ul li .txtBox {
-        display: block !important;
-        bottom: -4% !important;
-    }
-    .sec02 #inner ul li .txtBox h3 {
-        padding-bottom: 5px;
-        font-size: 1em !important;
-        font-family: MICE고딕;
-    }
-    .sec02 #inner ul li .txtBox b {
-        font-size: 1em !important;
-        font-family: 'Anton', sans-serif;
-    }
-    .sec02 #inner ul li .txtBox p {
-        font-size: 0.8em !important;
-        font-family: 'Noto Sans KR', sans-serif;
-        padding-top: 0;
     }
     .sec06 #inner .under_img img {
         top: 46px !important;
