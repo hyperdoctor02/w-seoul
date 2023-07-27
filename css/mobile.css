@@ -882,7 +882,7 @@
         width: 100% !important;
         height: auto !important;
     }
-    .swiper-slide {
+    .sec04 #inner .upper .swiper-slide {
         padding-top: 60px !important;
         text-align: center;
     
@@ -901,8 +901,10 @@
         -webkit-align-items: center;
         align-items: center;
       }
-      
-      .swiper-slide img {
+      .sec04 #inner .upper .swiper-slide .onlyM {
+        display: none;
+      }
+      .sec04 #inner .upper .swiper-slide .onlyT {
         margin-top: 550px;
         display: block !important;
         width: 100% !important;
@@ -1018,7 +1020,7 @@
         width: 100% !important;
     }
     .sec06 #inner .under_img {
-        display: block !important;
+        display: none !important;
        }
        .sec06 #inner .under_img img {
         width: 100% !important;
@@ -1201,53 +1203,63 @@
 
     /* sec02 */
     .sec02 {
-        height: 600px !important;
+        height: 1500px !important;
         
     }
-    .sec02 #inner ul {
-        width: 100% !important;
+    .sec02 #inner h2 {
+        top: 4% !important;
     }
-    .sec02 #inner ul li{
-        margin: 0 auto;
+    .sec02 #inner ul {
+            width: 100% !important;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            bottom: 5% !important;
+
     }
     .sec02 #inner ul li .appear-pc {
-        width: 0% !important;
+       display: none !important;
     }
     .sec02 #inner ul li .txtBox {
         display: none !important;
     }
    
     .sec02 #inner ul li {
-        height: 281px !important;
+        height: 100% !important;
     }
     .sec02 #inner ul li .txtBox {
         bottom: -24% !important;
     }
     .sec02 #inner .appear-mo {
-        width: 100%;
+        margin: auto !important;
+        width: 50% !important;
         display: block !important;
+        padding-bottom: 20px;
     }
     /* ------ */
 
     /* sec03 */
     .sec03 {
-        height: 1770px !important;
+        height: 2000px !important;
         background: url(../images/sec2-1-mo.png) no-repeat center !important;
         background-size: cover !important;
+    }
+    .sec03 #inner h2 {
+        top: 5% !important;
     }
     .sec03 #inner h4 {
         font-size: 2em !important;
     }
    
     .sec03 #inner .cont p {
-        font-size: 1em !important;
+        font-size: 1.5em !important;
         font-family: 'MICEGothic Bold';
     }
     .sec03 #inner .cont {
         width: 85% !important;
     }
     .sec03 #inner .cont span {
-        font-size: 1em !important;
+        font-size: 1.3em !important;
     }
     .sec03 #inner .n-box img{
         width: 100% !important; 
@@ -1256,25 +1268,25 @@
         padding-top: 12px !important;
     }
     .sec03 #inner .listBox-1 {
-        top: 18% !important;
+        top: 10% !important;
     }
     .sec03 #inner .listBox-2 {
-        top: 28% !important;
+        top: 20% !important;
     }
     .sec03 #inner .listBox-3 {
-        top: 38% !important;
+        top: 31% !important;
     }
     .sec03 #inner .listBox-4 {
-        top: 47.5% !important;
+        top: 43% !important;
     }
     .sec03 #inner .listBox-5{
-        top: 58% !important;
+        top: 55% !important;
     }
     .sec03 #inner .listBox-6 {
-        bottom: 24% !important;
+        bottom: 26% !important;
     }
     .sec03 #inner .listBox-7 {
-        bottom: 13% !important;
+        bottom: 14% !important;
     }
     .sec03 #inner .listBox-8 {
         bottom: 3% !important;
@@ -1282,9 +1294,12 @@
     /* --------- */
 
     /* sec04 */
+    .sec04 #inner {
+        width: 95% !important;
+    }
     .sec04 #inner .tit{
         font-size: 2em !important;
-        top: 34% !important;
+        top: 25% !important;
     }
     .sec04 #inner .tit p {
         font-size: 12px;
@@ -1293,6 +1308,7 @@
     .sec04 #inner img.two {
         display: none !important;
     }
+    
         .sec04 #inner .upper {
         display: block !important;
         width: 100% !important;
@@ -1322,8 +1338,10 @@
             -webkit-align-items: center;
             align-items: center;
           }
-          
-          .swiper-slide img {
+          .sec04 #inner .upper .swiper-slide .onlyT {
+            display: none !important;
+        }
+          .swiper-slide .onlyM {
             margin-top: 550px;
             display: block !important;
             width: 100% !important;
@@ -1335,8 +1353,8 @@
     
           .sec04 #inner .upper .swiper-pagination{
             display: block !important;
-            top: 50%;
-            left: 50%;
+            top: 35% !important;
+            left: 50% !important;
            transform: translateX(-50%);
           }
           .sec04 #inner .upper .swiper-pagination-bullet { 	
@@ -1408,14 +1426,9 @@
             
         
             .sec06 #inner .under_img {
-                display: block !important;
+                display: none !important;
             }
-            .sec06 #inner .under_img img {
-                width: 100% !important;
-                top: 25px;
-            }
-          
-
+            
             .object-fit img{width:100%;height:100%;object-fit:cover;}
             .gallery-box .swiper-slide {padding-top: 0;}
             .gallery-box{margin:0 auto;max-width:800px;}
@@ -1442,7 +1455,7 @@
 
           /* sec07 */
           .sec07 {
-            height: 330px !important;
+            height: 300px !important;
           }
           .sec07 #inner {
             width: 100% !important;
@@ -1451,9 +1464,14 @@
             display: flex;
 
           }
-          .sec07 #inner ul li img {
-            width: 100% !important;
+          .sec07 #inner ul li  img {
+            display: none !important;
           }
+          .sec07 #inner ul li .care-mo {
+            width: 100% !important;
+            display: block !important;
+        }
+          
           /* ---------- */
 
           /* sec08 */
@@ -1503,6 +1521,9 @@
 @media screen and (min-width:390px) and (max-width: 479px) {
     #wrap {
         min-width: 100% !important;
+    }
+    .sec02 {
+        height: 1300px !important;
     }
     .sec06 #inner .under_img img {
         top: 46px !important;
