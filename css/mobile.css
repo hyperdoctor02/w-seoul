@@ -381,7 +381,10 @@
     #header {
         height: 100px !important; 
     }
-    #header h1 {
+    #header .inner {
+        width: 85%;
+    }
+    #header .inner  h1 {
     top: 50% !important;
     left: 45% !important;
     -webkit-transform: translate(-50%, -50%) !important;
@@ -391,12 +394,11 @@
    
     #header .inner .gnb {
         width: 100% !important;
-        top: 50px !important;
+        top: 72px !important;
         left: 50% !important;
-        -webkit-transform: translateX(-50%) !important;
-        transform: translateX(-50%)!important;
+        -webkit-transform: translate(-50%, -50%) !important;
+        transform: translate(-50%, -50%) !important;
     }
-
 
     h2 {
      font-size: 3.5em !important;
@@ -407,7 +409,7 @@
     }
     #header .inner .gnb ul li,
     #header .inner .gnb > a {
-        margin-left: 35px !important;
+        margin-left: 28px !important;
     } 
     #header .inner .gnb > a, #header .inner .gnb ul li a {
         font-size: 14px !important;
@@ -1652,7 +1654,10 @@
     .sec04 #inner .upper .swiper .swiper-slide {
         padding-top: 0 !important;
     }
-    
+    .sec05 #inner h2 .tit,
+    .sec06 #inner h2 .tit {
+        top: 16% !important;
+    }
     .sec06 #inner .under_img img {
         top: 46px !important;
     }
