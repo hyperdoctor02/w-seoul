@@ -1455,7 +1455,7 @@
 
           /* sec07 */
           .sec07 {
-            height: 300px !important;
+            height: 270px !important;
           }
           .sec07 #inner {
             width: 100% !important;
@@ -1525,6 +1525,10 @@
     .sec02 {
         height: 1300px !important;
     }
+    .sec04 #inner .upper .swiper .swiper-slide {
+        padding-top: 0 !important;
+    }
+    
     .sec06 #inner .under_img img {
         top: 46px !important;
     }
