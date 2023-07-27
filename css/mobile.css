@@ -1138,7 +1138,6 @@
 
     h2 p {
         font-size: 15px !important;
-        font-family: 'MICEGothic Bold';
     }
 
     #inner {
@@ -1294,7 +1293,6 @@
    
     .sec03 #inner .cont p {
         font-size: 1.5em !important;
-        font-family: 'MICEGothic Bold';
     }
     .sec03 #inner .cont {
         width: 85% !important;
@@ -1543,7 +1541,7 @@
           }
                  
           .sec08 #inner h2 .tit {
-            top: 8% !important;
+            top: 7.5% !important;
           }
           .sec08 #inner .webImg {
             display: none !important;
@@ -1574,7 +1572,7 @@
                 color: #fff;
             }
             .sec08 #inner .textCont .topBox  ul li>.txt>p>b{
-                color: #599cb6;
+                color: #579cb7;
             }
             .sec08 #inner .textCont .topBox  ul li>.txt>p>span {
                 font-weight: normal;
@@ -1597,10 +1595,12 @@
                 line-height: 1.5 !important;
                 padding-top: 40px !important;
                 text-align: left !important;
-                font-weight: normal !important;    
+                font-weight: normal !important;   
+               margin: 10px;
             }
             .sec08 #inner .textCont .bottomBox .txt>span {
-                color: #599cb6;
+                color: #579cb7;
+                font-weight: bold !important;
             }
           /* ------ */
 
