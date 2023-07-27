@@ -89,9 +89,16 @@
    
    .sec04 #inner .tit {
     font-size: 3em;
+    top: 13%;
    }
    .sec04 #inner .tit p {
     font-size: 18px;
+   }
+   .sec04 #inner .bestIcon img {
+    width: 30%;
+   }
+   .sec04 #inner img.one {
+    margin-top: 230px !important;
    }
    /* ---------- */
 
@@ -241,6 +248,12 @@
    .sec04 #inner .tit p {
     font-size: 16px;
    }
+   .sec04 #inner .bestIcon img {
+    width: 30% !important; 
+    }
+    .sec04 #inner img.one {
+    margin-top: 190px !important;
+    }
    .sec3-table {
     width:100vw;
    }
@@ -486,9 +499,15 @@
     /* ------ */
 
     /* sec04 */
+    .sec04 #inner .bestIcon img {
+        width: 30% !important;
+    }
     .sec04 #inner .tit{
         font-size: 3em !important;
-        top: 16%;
+        top: 13%;
+    }
+    .sec04 #inner img.one {
+        margin-top: 180px !important;
     }
     .sec04 #inner img.one,
     .sec04 #inner img.two {
@@ -802,6 +821,9 @@
    /* sec03 */
    .sec03 {
     height: 1300px !important;
+    background: url(../images/sec2-1-mo.png) no-repeat center !important;
+    background-size: cover !important;
+    text-align: center;
    }
    .sec03 #inner h4 {
     font-size: 1.5em !important;
@@ -845,23 +867,32 @@
         top: 56.5% !important;
     }
     .sec03 #inner .listBox-6 {
-        bottom: 25% !important;
+        bottom: 23% !important;
     }
     .sec03 #inner .listBox-7 {
-        bottom: 15% !important;
+        bottom: 13% !important;
     }
     .sec03 #inner .listBox-8 {
-        bottom: 5% !important;
+        bottom: 2% !important;
     }
    /* ------- */
 
    /* se04 */
+   .sec04 {
+    background: url(../images/sec3-add-mo.png) no-repeat center !important;
+    background-size: cover !important;
+    text-align: center;
+}
    .sec04 #inner {
     width: 87% !important;
    }
+   
+    .sec04 #inner .bestIcon img {
+        width: 40%;
+    }
    .sec04 #inner .tit {
     font-size: 2em !important;
-    top: 30% !important;
+    top: 22% !important;
    }
    .sec04 #inner .tit p {
     font-size: 14px !important;
@@ -905,7 +936,7 @@
         display: none;
       }
       .sec04 #inner .upper .swiper-slide .onlyT {
-        margin-top: 550px;
+        margin-top: 260px !important;
         display: block !important;
         width: 100% !important;
         float: left;
@@ -916,7 +947,7 @@
 
       .sec04 #inner .upper .swiper-pagination{
         display: block !important;
-        top: 45%;
+        top: 15%;
         left: 50%;
        transform: translateX(-50%);
       }
@@ -961,6 +992,16 @@
         font-size: 1em;
     }
     .mt45 img {
+        width: 0 !important;
+        display: none;
+    }
+    .mt46 {
+        position: relative;
+        left: 50%;
+        margin-left: -100%;
+        display: block !important;
+    }
+    .mt46 img {
         width: 100vw !important;
     }
     /* -------- */
@@ -1297,9 +1338,13 @@
     .sec04 #inner {
         width: 95% !important;
     }
+    .sec04 #inner .bestIcon img {
+        width:40% !important;
+        top: -10px;
+    }
     .sec04 #inner .tit{
         font-size: 2em !important;
-        top: 25% !important;
+        top: 18% !important;
     }
     .sec04 #inner .tit p {
         font-size: 12px;
@@ -1342,7 +1387,7 @@
             display: none !important;
         }
           .swiper-slide .onlyM {
-            margin-top: 550px;
+            margin-top: 180px !important;
             display: block !important;
             width: 100% !important;
             float: left;
@@ -1353,7 +1398,7 @@
     
           .sec04 #inner .upper .swiper-pagination{
             display: block !important;
-            top: 35% !important;
+            top: 9% !important;
             left: 50% !important;
            transform: translateX(-50%);
           }
@@ -1380,6 +1425,16 @@
         }
         
         .mt45 img {
+            width: 0 !important;
+            display: none;
+        }
+        .mt46 {
+            position: relative;
+            left: 50%;
+            margin-left: -100%;
+            display: block !important;
+        }
+        .mt46 img {
             width: 100vw !important;
         }
         /* --------- */
@@ -1471,6 +1526,9 @@
             width: 100% !important;
             display: block !important;
         }
+        .sec07 #inner ul li {
+            height: 270px !important;
+        }
           
           /* ---------- */
 
@@ -1485,11 +1543,65 @@
           }
                  
           .sec08 #inner h2 .tit {
-            top: 18% !important;
+            top: 8% !important;
           }
-          .sec08 #inner img {
+          .sec08 #inner .webImg {
+            display: none !important;
+          }
+          .sec08 #inner .textCont {
+            display: block !important;
             width: 100% !important;
-          }
+            }
+            .sec08 #inner .textCont .topBox ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .sec08 #inner .textCont .topBox ul li {
+                float: left;
+            }
+            .sec08 #inner .textCont .topBox ul li>.icoImg {
+                width: 20% !important;
+                margin-top: 50px !important;
+            }
+            .sec08 #inner .textCont .topBox ul li>.txt {
+                text-align: center;
+                padding-top: 10px !important;
+            }
+            .sec08 #inner .textCont .topBox  ul li>.txt>p {
+                font-size: 1.5em;
+                line-height: 1.7;
+                color: #fff;
+            }
+            .sec08 #inner .textCont .topBox  ul li>.txt>p>b{
+                color: #599cb6;
+            }
+            .sec08 #inner .textCont .topBox  ul li>.txt>p>span {
+                font-weight: normal;
+                font-size: 0.8em;
+            }
+            .sec08 #inner .textCont .topBox ul li>.txt>p>.numTxt {
+                background: #61cb3d;
+                border-radius: 6px;
+                margin-right: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+            .sec08 #inner .textCont .bottomBox {
+                padding-top: 50px;
+            }
+            .sec08 #inner .textCont .bottomBox .txt{
+                font-size: 1.3em !important;
+                color: #fff;
+                line-height: 1.5 !important;
+                padding-top: 40px !important;
+                text-align: left !important;
+                font-weight: normal !important;    
+            }
+            .sec08 #inner .textCont .bottomBox .txt>span {
+                color: #599cb6;
+            }
           /* ------ */
 
 
@@ -1522,8 +1634,20 @@
     #wrap {
         min-width: 100% !important;
     }
+    h2 p {
+        font-size: 13px !important;
+    }
     .sec02 {
         height: 1300px !important;
+    }
+    .swiper-slide .onlyM {
+        margin-top: 235px !important;
+    }
+    .sec04 #inner .tit {
+        font-size: 1.8em !important;
+    }
+    .sec04 #inner .tit p {
+        font-size: 10px !important;
     }
     .sec04 #inner .upper .swiper .swiper-slide {
         padding-top: 0 !important;
