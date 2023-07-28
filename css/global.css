@@ -27,6 +27,52 @@ h5,
 #footer,
 p { font-family: 'SUIT-Regular'; font-weight: normal;}
 
+/* pop-up */
+#divpop_1{
+    position:absolute; 
+    left:100px;
+    margin-left:0; 
+    top:70px; 
+    z-index:999; 
+    width:450px; 
+    height:418px;
+}
+#divpop_2 {
+    position:absolute; 
+    left:570px; 
+    margin-left:0; 
+    top:70px; 
+    z-index:999; 
+    width:450px; 
+    height:418px;
+}
+#divpop_3 {
+    position:absolute; 
+    left:1040px; 
+    margin-left:0; 
+    top:70px; 
+    z-index:999; 
+    width:450px; 
+    height:418px;
+}
+#divpop_4{
+    position:absolute; 
+    left:100px; 
+    margin-left:0; 
+    top:620px; 
+    z-index:999; 
+    width:450px; 
+    height:420px;
+}
+#divpop_5 {
+    position:absolute; 
+    left:570px; 
+    margin-left:0; 
+    top:620px;
+    z-index:999; 
+    width:450px; 
+    height:420px;
+}
 
 #skip a {position:absolute;top:-9999px;z-index:9999;display:block;width:100%;background:#333;font-size:16px;font-weight:600;color:#fff;text-align:center;}
 #skip a:hover,#skip a:focus {top:0;padding:15px 0;}
