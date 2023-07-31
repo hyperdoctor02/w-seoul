@@ -1260,29 +1260,24 @@
         font-size: 10px;
     }
     #divpop_1 {
-    left: 10px;
-    top: 90px;
-    width: 220px;
+    left: 5px !important;
+    top: 90px !important;
     }
     #divpop_2 {
-        left:235px; 
-        top: 90px;
-        width: 220px;
+        left:5px !important; 
+        top: 470px !important;
     }
     #divpop_3 {
-        left: 10px; 
-        top: 370px;
-        width: 220px;
+        left: 5px !important; 
+        top: 855px !important;
     } 
     #divpop_4 {
-        left:235px; 
-        top: 370px;
-        width: 220px;
+        left:5px; 
+        top: 1315px;
     } 
     #divpop_5 {
-        left:10px; 
-        top: 650px;
-        width: 220px;
+        left:5px !important; 
+        top: 1710px !important;
     }
     /* -------------- */
 
@@ -1783,6 +1778,9 @@
             .float-menu #blogIcon, .float-menu #locIcon, .float-menu #goTop {
                 background: none;
             }
+            .float-menu a img {
+                max-width: 80% !important;
+            }
 
           /* footer */
           #footer {
@@ -1802,30 +1800,30 @@
         font-size: 10px;
     }
     #divpop_1 {
-    left: 4px;
-    top: 90px;
-    width: 190px;
-    }
-    #divpop_2 {
-        left:196px; 
-        top: 90px;
-        width: 190px;
-    }
-    #divpop_3 {
-        left: 4px; 
-        top: 340px;
-        width: 190px;
-    } 
-    #divpop_4 {
-        left:196px; 
-        top: 340px;
-        width: 190px;
-    } 
-    #divpop_5 {
-        left:4px; 
-        top: 590px;
-        width: 190px;
-    }
+        left: 0px !important;
+        top: 80px !important;
+        width: 390px !important;
+        }
+        #divpop_2 {
+            left:0px !important; 
+            top: 470px !important;
+            width: 390px !important;
+        }
+        #divpop_3 {
+            left: 0px !important; 
+            top: 855px !important;
+            width: 390px !important;
+        } 
+        #divpop_4 {
+            left:0px; 
+            top: 1315px;
+            width: 390px !important;
+        } 
+        #divpop_5 {
+            left:0px !important; 
+            top: 1710px !important;
+            width: 390px !important;
+        }
     /* ------------- */
     
     #wrap {
@@ -1858,6 +1856,9 @@
     }
     .sec08 #inner h2 .tit {
         top: 8% !important;
+    }
+    .float-menu a img {
+        max-width: 70% !important;
     }
 }
    
