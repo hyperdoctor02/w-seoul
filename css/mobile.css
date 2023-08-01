@@ -14,17 +14,17 @@
         width: 350px;
     }
     #divpop_3 {
-        left:780px; 
+        left:410px; 
         width: 350px;
     } 
     #divpop_4 {
         left:40px; 
-        top: 550px;
+        top: 510px;
         width: 350px;
     } 
     #divpop_5 {
         width: 350px;
-        top: 550px;
+        top: 510px;
         left: 410px;
     }
     /* -------------- */
@@ -226,7 +226,7 @@
         width: 310px;
     }
     #divpop_3 {
-        left:687px; 
+        left:360px; 
         top: 118px;
         width: 310px;
     } 
@@ -448,8 +448,8 @@
         width: 300px;
     }
     #divpop_3 {
-        left: 40px; 
-        top: 500px;
+        left: 390px;
+        top: 118px;
         width: 300px;
     } 
     #divpop_4 {
@@ -459,7 +459,7 @@
     } 
     #divpop_5 {
         left:40px; 
-        top: 880px;
+        top: 500px;
         width: 300px
     }
     /* -------------- */
@@ -779,8 +779,8 @@
         width: 220px;
     }
     #divpop_3 {
-        left: 10px; 
-        top: 400px;
+        left: 235px;
+        top: 118px;
         width: 220px;
     } 
     #divpop_4 {
@@ -790,7 +790,7 @@
     } 
     #divpop_5 {
         left:10px; 
-        top: 680px;
+        top: 400px;
         width: 220px;
     }
     /* --------------- */
@@ -1271,7 +1271,7 @@
     #divpop_3 {
         z-index: 998;
         left: 5px !important; 
-        top: 855px !important;
+        top: 598px !important;
     } 
     #divpop_4 {
         z-index: 997;
@@ -1425,6 +1425,7 @@
     }
    
     .sec02 #inner ul li {
+        max-width: 90% !important;
         height: 100% !important;
     }
     .sec02 #inner ul li .txtBox {
@@ -1793,7 +1794,7 @@
           }
 }
 /* 390px */
-@media screen and (min-width:390px) and (max-width: 479px) {
+@media screen and (max-width:390px) {
     
      /* popUp */
     .chkbox {
@@ -1815,17 +1816,17 @@
         }
         #divpop_3 {
             left: 0px !important; 
-            top: 855px !important;
+            top: 525px !important;
             width: 390px !important;
         } 
         #divpop_4 {
             left:0px; 
-            top: 1315px;
+            top: 985px;
             width: 390px !important;
         } 
         #divpop_5 {
             left:0px !important; 
-            top: 1710px !important;
+            top: 1445px !important;
             width: 390px !important;
         }
     /* ------------- */
